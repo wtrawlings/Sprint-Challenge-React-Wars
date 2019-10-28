@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from "axios";
 import './App.css';
+import TarotCard from "./components/TarotCard"
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -30,7 +31,7 @@ const App = () => {
       {characters.map((character, id) => {
         return (
           <div>
-            
+
           </div>
         )
       })}
