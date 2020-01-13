@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import axios from "axios";
+import React from 'react';
 import styled from 'styled-components';
 
 const NameSearchDiv = styled.div`
@@ -25,7 +24,7 @@ const NameSearch = props => {
     return (
         <NameSearchDiv className="nameForm">
             <SearchTitle>Search Personnel Data by Name: </SearchTitle>
-            <SearchInput type="text" />
+            <SearchInput onChange={props.handleInput} type="text" />
         </NameSearchDiv>    
     );
 }

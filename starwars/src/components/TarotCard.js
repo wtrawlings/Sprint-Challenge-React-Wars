@@ -18,6 +18,7 @@ const TarotCard = props => {
             <p>HAIR COLOR: {props.hair_color}</p>
             <p>HEIGHT: {props.height}cm</p>
             <p>MASS: {props.mass}kg</p>
+            <p>KEY: {props.id}</p>
         </StyledDiv>
     );
 }
