@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import axios from "axios";
 import './App.css';
 import TarotCard from "./components/TarotCard"
+import NameSearch from "./components/NameSearch"
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars: Personnel Report</h1>
     </div>
+    <NameSearch />
     <div>
       {characters.map((character, id) => {
         return (
