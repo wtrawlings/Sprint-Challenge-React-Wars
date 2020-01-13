@@ -16,8 +16,9 @@ const TarotCard = props => {
             <p>SPECIES: {props.species}</p>
             <p>SKIN COLOR: {props.skin_color}</p>
             <p>HAIR COLOR: {props.hair_color}</p>
-            <p>HEIGHT: {props.height}</p>
+            <p>HEIGHT: {props.height}cm</p>
             <p>MASS: {props.mass}kg</p>
+            <p>KEY: {props.id}</p>
         </StyledDiv>
     );
 }
